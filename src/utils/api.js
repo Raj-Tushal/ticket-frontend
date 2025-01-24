@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ticket-backend-production-f1ba.up.railway.app/", 
+  baseURL: "http://localhost:8002/api", 
 });
 
 API.interceptors.request.use((req) => {
